@@ -1,0 +1,108 @@
+# 1.0.0
+
+## Build 55 (Mar 18, 2022)
+
+**Changes**
+
+- Upgraded to v1.0.0F 439
+
+# 0.13.0
+
+## Build 52 (Dec 17, 2021)
+
+**Bug Fixes**
+
+- Fixed: Players now despawn correctly when leaving
+
+# 0.11.0
+
+## Build 51 (Nov 05, 2021)
+
+- Updated fusion to version 0.7.0#331
+
+**Changes**
+
+- Updated to fusion version 0.8.0#320
+- Renamed variables according to naming convention
+
+# 0.7.0
+
+## Build 49 (Sep 28, 2021)
+
+- Updated fusion to version 0.7.0#296
+- Updated fusion to version 0.7.0#295
+
+## Build 46 (Sep 02, 2021)
+
+- Updated to fusion version 0.7.0#283
+- Updated fusion to 0.7.0#276
+
+# 0.6.0
+
+## Build 43 (Aug 17, 2021)
+
+- Upgraded to SDK 0.6.0 #260
+
+# 0.5.0
+
+## Build 42 (Jul 13, 2021)
+
+**Changes**
+
+- Updated to Fusion version 0.5.0#236
+- StartBoost rpc now unreliable and removed unnecessary parameters
+
+**Bug Fixes**
+
+- Fixed: Boost cooldown TickTimer is now Networked. Resulted in incorrect prediction on clients
+
+## Build 30 (Jun 09, 2021)
+
+**Changes**
+
+- Upgraded to Fusion SDK 0.5.0
+
+# 0.2.0
+
+## Build 26 (Jun 04, 2021)
+
+**What's New**
+
+- Added Setup instructions to readme for 'unsafe' code and AppId creation
+- Quit game button with proper disconnect
+- Added area of interest to character
+
+**Changes**
+
+- Updated fusion  to 0.4.0#198
+- Updated fusion to 0.3.0#192
+- Removed seperation of player and character for simplicity
+- Updated to fusion 0.3.0#186
+AOI experiments
+- Updated to fusion 0.3.0#162
+- Updated fusion to 0.3.0#160
+- Updated to fusion 0.3.0#158
+- Updated fusion to 0.2.0#152
+- Changed spawner to use rpcs instead of callbacks for compatibility with Client Authority
+- Updated fusion to 0.2.0#142
+- Updated Rpc function to follow naming convention
+- Input enums now both start at 0 to avoid confusion
+- Changed IsPreprocessed flag in input to use NetworkBool type
+
+**Bug Fixes**
+
+- Fixed: Finding local system in a way that works with mulitpeer and singlepeer
+- Fixed: Fixed quit button for clients
+- Fixed: Keeping a networked version of InputActions so it can be properly predicted and rolled back
+- Fixed: Fixed camera jitters. Camera position now updates in LateUpdate and follows interpolation target
+
+## Build 21 (Apr 16, 2021)
+
+**Changes**
+
+- Updated  fusion to 0.2.0#131
+
+## Build 20 (Apr 09, 2021)
+
+- Initial release
+
